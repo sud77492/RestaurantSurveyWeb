@@ -1,0 +1,881 @@
+[13-Feb-2018 22:36:31 Asia/Kolkata] PHP Fatal error:  Call to undefined function close() in /home/ubuntu/workspace/api/include/DbHandler.php on line 253
+[13-Feb-2018 22:36:31 Asia/Kolkata] PHP Stack trace:
+[13-Feb-2018 22:36:31 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[13-Feb-2018 22:36:31 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1030
+[13-Feb-2018 22:36:31 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[13-Feb-2018 22:36:31 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[13-Feb-2018 22:36:31 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[13-Feb-2018 22:36:31 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[13-Feb-2018 22:36:31 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[13-Feb-2018 22:36:31 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[13-Feb-2018 22:36:31 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:404-420}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[13-Feb-2018 22:36:31 Asia/Kolkata] PHP  10. DbHandler->rejectAcceptedJob() /home/ubuntu/workspace/api/v1/index.php:411
+[13-Feb-2018 22:37:10 Asia/Kolkata] PHP Fatal error:  Call to undefined function close() in /home/ubuntu/workspace/api/include/DbHandler.php on line 253
+[13-Feb-2018 22:37:10 Asia/Kolkata] PHP Stack trace:
+[13-Feb-2018 22:37:10 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[13-Feb-2018 22:37:10 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1030
+[13-Feb-2018 22:37:10 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[13-Feb-2018 22:37:10 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[13-Feb-2018 22:37:10 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[13-Feb-2018 22:37:10 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[13-Feb-2018 22:37:10 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[13-Feb-2018 22:37:10 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[13-Feb-2018 22:37:10 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:404-420}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[13-Feb-2018 22:37:10 Asia/Kolkata] PHP  10. DbHandler->rejectAcceptedJob() /home/ubuntu/workspace/api/v1/index.php:411
+[13-Feb-2018 22:37:18 Asia/Kolkata] PHP Fatal error:  Call to undefined function close() in /home/ubuntu/workspace/api/include/DbHandler.php on line 253
+[13-Feb-2018 22:37:18 Asia/Kolkata] PHP Stack trace:
+[13-Feb-2018 22:37:18 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[13-Feb-2018 22:37:18 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1030
+[13-Feb-2018 22:37:18 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[13-Feb-2018 22:37:18 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[13-Feb-2018 22:37:18 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[13-Feb-2018 22:37:18 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[13-Feb-2018 22:37:18 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[13-Feb-2018 22:37:18 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[13-Feb-2018 22:37:18 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:404-420}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[13-Feb-2018 22:37:18 Asia/Kolkata] PHP  10. DbHandler->rejectAcceptedJob() /home/ubuntu/workspace/api/v1/index.php:411
+[19-Feb-2018 12:07:15 Asia/Kolkata] PHP Fatal error:  Call to undefined function prepare() in /home/ubuntu/workspace/api/include/DbHandler.php on line 299
+[19-Feb-2018 12:07:15 Asia/Kolkata] PHP Stack trace:
+[19-Feb-2018 12:07:15 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[19-Feb-2018 12:07:15 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1078
+[19-Feb-2018 12:07:15 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[19-Feb-2018 12:07:15 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[19-Feb-2018 12:07:15 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[19-Feb-2018 12:07:15 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[19-Feb-2018 12:07:15 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[19-Feb-2018 12:07:15 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[19-Feb-2018 12:07:15 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:488-506}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[19-Feb-2018 12:07:15 Asia/Kolkata] PHP  10. DbHandler->acceptRejectedJob() /home/ubuntu/workspace/api/v1/index.php:496
+[19-Feb-2018 12:43:22 Asia/Kolkata] PHP Fatal error:  Call to undefined function prepare() in /home/ubuntu/workspace/api/include/DbHandler.php on line 318
+[19-Feb-2018 12:43:22 Asia/Kolkata] PHP Stack trace:
+[19-Feb-2018 12:43:22 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[19-Feb-2018 12:43:22 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1115
+[19-Feb-2018 12:43:22 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[19-Feb-2018 12:43:22 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[19-Feb-2018 12:43:22 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[19-Feb-2018 12:43:22 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[19-Feb-2018 12:43:22 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[19-Feb-2018 12:43:22 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[19-Feb-2018 12:43:22 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:469-486}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[19-Feb-2018 12:43:22 Asia/Kolkata] PHP  10. DbHandler->acceptJob() /home/ubuntu/workspace/api/v1/index.php:477
+[19-Feb-2018 13:16:35 Asia/Kolkata] PHP Fatal error:  Call to undefined function prepare() in /home/ubuntu/workspace/api/include/DbHandler.php on line 248
+[19-Feb-2018 13:16:35 Asia/Kolkata] PHP Stack trace:
+[19-Feb-2018 13:16:35 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[19-Feb-2018 13:16:35 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1115
+[19-Feb-2018 13:16:35 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[19-Feb-2018 13:16:35 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[19-Feb-2018 13:16:35 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[19-Feb-2018 13:16:35 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[19-Feb-2018 13:16:35 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[19-Feb-2018 13:16:35 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[19-Feb-2018 13:16:35 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:386-403}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[19-Feb-2018 13:16:35 Asia/Kolkata] PHP  10. DbHandler->rejectJob() /home/ubuntu/workspace/api/v1/index.php:394
+[21-Feb-2018 18:25:26 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 16
+[21-Feb-2018 18:25:26 Asia/Kolkata] PHP Stack trace:
+[21-Feb-2018 18:25:26 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[21-Feb-2018 18:25:26 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1120
+[21-Feb-2018 18:25:26 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[21-Feb-2018 18:25:26 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[21-Feb-2018 18:25:26 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[21-Feb-2018 18:25:26 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[21-Feb-2018 18:25:26 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[21-Feb-2018 18:25:26 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:433}() /home/ubuntu/workspace/api/libs/Slim/Route.php:433
+[21-Feb-2018 18:25:26 Asia/Kolkata] PHP   9. authenticate() /home/ubuntu/workspace/api/libs/Slim/Route.php:433
+[21-Feb-2018 18:25:26 Asia/Kolkata] PHP  10. DbHandler->isValidApiKey() /home/ubuntu/workspace/api/v1/index.php:28
+[21-Feb-2018 18:26:37 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 16
+[21-Feb-2018 18:26:37 Asia/Kolkata] PHP Stack trace:
+[21-Feb-2018 18:26:37 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[21-Feb-2018 18:26:37 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1120
+[21-Feb-2018 18:26:37 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[21-Feb-2018 18:26:37 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[21-Feb-2018 18:26:37 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[21-Feb-2018 18:26:37 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[21-Feb-2018 18:26:37 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[21-Feb-2018 18:26:37 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:433}() /home/ubuntu/workspace/api/libs/Slim/Route.php:433
+[21-Feb-2018 18:26:37 Asia/Kolkata] PHP   9. authenticate() /home/ubuntu/workspace/api/libs/Slim/Route.php:433
+[21-Feb-2018 18:26:37 Asia/Kolkata] PHP  10. DbHandler->isValidApiKey() /home/ubuntu/workspace/api/v1/index.php:28
+[21-Feb-2018 18:26:46 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 16
+[21-Feb-2018 18:26:46 Asia/Kolkata] PHP Stack trace:
+[21-Feb-2018 18:26:46 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[21-Feb-2018 18:26:46 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1120
+[21-Feb-2018 18:26:46 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[21-Feb-2018 18:26:46 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[21-Feb-2018 18:26:46 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[21-Feb-2018 18:26:46 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[21-Feb-2018 18:26:46 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[21-Feb-2018 18:26:46 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:433}() /home/ubuntu/workspace/api/libs/Slim/Route.php:433
+[21-Feb-2018 18:26:46 Asia/Kolkata] PHP   9. authenticate() /home/ubuntu/workspace/api/libs/Slim/Route.php:433
+[21-Feb-2018 18:26:46 Asia/Kolkata] PHP  10. DbHandler->isValidApiKey() /home/ubuntu/workspace/api/v1/index.php:28
+[21-Feb-2018 18:27:38 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 16
+[21-Feb-2018 18:27:38 Asia/Kolkata] PHP Stack trace:
+[21-Feb-2018 18:27:38 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[21-Feb-2018 18:27:38 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1120
+[21-Feb-2018 18:27:38 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[21-Feb-2018 18:27:38 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[21-Feb-2018 18:27:38 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[21-Feb-2018 18:27:38 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[21-Feb-2018 18:27:38 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[21-Feb-2018 18:27:38 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:433}() /home/ubuntu/workspace/api/libs/Slim/Route.php:433
+[21-Feb-2018 18:27:38 Asia/Kolkata] PHP   9. authenticate() /home/ubuntu/workspace/api/libs/Slim/Route.php:433
+[21-Feb-2018 18:27:38 Asia/Kolkata] PHP  10. DbHandler->isValidApiKey() /home/ubuntu/workspace/api/v1/index.php:28
+[21-Feb-2018 18:29:16 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 16
+[21-Feb-2018 18:29:16 Asia/Kolkata] PHP Stack trace:
+[21-Feb-2018 18:29:16 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[21-Feb-2018 18:29:16 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1120
+[21-Feb-2018 18:29:16 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[21-Feb-2018 18:29:16 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[21-Feb-2018 18:29:16 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[21-Feb-2018 18:29:16 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[21-Feb-2018 18:29:16 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[21-Feb-2018 18:29:16 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:433}() /home/ubuntu/workspace/api/libs/Slim/Route.php:433
+[21-Feb-2018 18:29:16 Asia/Kolkata] PHP   9. authenticate() /home/ubuntu/workspace/api/libs/Slim/Route.php:433
+[21-Feb-2018 18:29:16 Asia/Kolkata] PHP  10. DbHandler->isValidApiKey() /home/ubuntu/workspace/api/v1/index.php:28
+[21-Feb-2018 18:30:42 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 16
+[21-Feb-2018 18:30:42 Asia/Kolkata] PHP Stack trace:
+[21-Feb-2018 18:30:42 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[21-Feb-2018 18:30:42 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1120
+[21-Feb-2018 18:30:42 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[21-Feb-2018 18:30:42 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[21-Feb-2018 18:30:42 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[21-Feb-2018 18:30:42 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[21-Feb-2018 18:30:42 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[21-Feb-2018 18:30:42 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:433}() /home/ubuntu/workspace/api/libs/Slim/Route.php:433
+[21-Feb-2018 18:30:42 Asia/Kolkata] PHP   9. authenticate() /home/ubuntu/workspace/api/libs/Slim/Route.php:433
+[21-Feb-2018 18:30:42 Asia/Kolkata] PHP  10. DbHandler->isValidApiKey() /home/ubuntu/workspace/api/v1/index.php:28
+[21-Feb-2018 18:31:33 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 16
+[21-Feb-2018 18:31:33 Asia/Kolkata] PHP Stack trace:
+[21-Feb-2018 18:31:33 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[21-Feb-2018 18:31:33 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1120
+[21-Feb-2018 18:31:33 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[21-Feb-2018 18:31:33 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[21-Feb-2018 18:31:33 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[21-Feb-2018 18:31:33 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[21-Feb-2018 18:31:33 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[21-Feb-2018 18:31:33 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:433}() /home/ubuntu/workspace/api/libs/Slim/Route.php:433
+[21-Feb-2018 18:31:33 Asia/Kolkata] PHP   9. authenticate() /home/ubuntu/workspace/api/libs/Slim/Route.php:433
+[21-Feb-2018 18:31:33 Asia/Kolkata] PHP  10. DbHandler->isValidApiKey() /home/ubuntu/workspace/api/v1/index.php:28
+[21-Feb-2018 18:31:51 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 16
+[21-Feb-2018 18:31:51 Asia/Kolkata] PHP Stack trace:
+[21-Feb-2018 18:31:51 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[21-Feb-2018 18:31:51 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1121
+[21-Feb-2018 18:31:51 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[21-Feb-2018 18:31:51 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[21-Feb-2018 18:31:51 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[21-Feb-2018 18:31:51 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[21-Feb-2018 18:31:51 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[21-Feb-2018 18:31:51 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:433}() /home/ubuntu/workspace/api/libs/Slim/Route.php:433
+[21-Feb-2018 18:31:51 Asia/Kolkata] PHP   9. authenticate() /home/ubuntu/workspace/api/libs/Slim/Route.php:433
+[21-Feb-2018 18:31:51 Asia/Kolkata] PHP  10. DbHandler->isValidApiKey() /home/ubuntu/workspace/api/v1/index.php:29
+[21-Feb-2018 18:33:28 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 17
+[21-Feb-2018 18:33:28 Asia/Kolkata] PHP Stack trace:
+[21-Feb-2018 18:33:28 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[21-Feb-2018 18:33:28 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1121
+[21-Feb-2018 18:33:28 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[21-Feb-2018 18:33:28 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[21-Feb-2018 18:33:28 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[21-Feb-2018 18:33:28 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[21-Feb-2018 18:33:28 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[21-Feb-2018 18:33:28 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:433}() /home/ubuntu/workspace/api/libs/Slim/Route.php:433
+[21-Feb-2018 18:33:28 Asia/Kolkata] PHP   9. authenticate() /home/ubuntu/workspace/api/libs/Slim/Route.php:433
+[21-Feb-2018 18:33:28 Asia/Kolkata] PHP  10. DbHandler->isValidApiKey() /home/ubuntu/workspace/api/v1/index.php:29
+[20-Jun-2018 15:48:29 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'All Route middleware must be callable' in /home/ubuntu/workspace/api/libs/Slim/Route.php:326
+Stack trace:
+#0 /home/ubuntu/workspace/api/libs/Slim/Slim.php(432): Slim\Route->setMiddleware(Array)
+#1 /home/ubuntu/workspace/api/libs/Slim/Slim.php(459): Slim\Slim->mapRoute(Array)
+#2 /home/ubuntu/workspace/api/v1/index.php(70): Slim\Slim->get('/test/keys', 'authenticate', Object(Closure))
+#3 {main}
+  thrown in /home/ubuntu/workspace/api/libs/Slim/Route.php on line 326
+[20-Jun-2018 17:00:17 Asia/Kolkata] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ubuntu/workspace/api/v1/index.php on line 305
+[20-Jun-2018 17:00:17 Asia/Kolkata] PHP Stack trace:
+[20-Jun-2018 17:00:17 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[20-Jun-2018 17:00:17 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1027
+[20-Jun-2018 17:00:17 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[20-Jun-2018 17:00:17 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[20-Jun-2018 17:00:17 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[20-Jun-2018 17:00:17 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[20-Jun-2018 17:00:17 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[20-Jun-2018 17:00:17 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[20-Jun-2018 17:00:17 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:220-321}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[20-Jun-2018 17:02:37 Asia/Kolkata] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ubuntu/workspace/api/v1/index.php on line 305
+[20-Jun-2018 17:02:37 Asia/Kolkata] PHP Stack trace:
+[20-Jun-2018 17:02:37 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[20-Jun-2018 17:02:37 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1027
+[20-Jun-2018 17:02:37 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[20-Jun-2018 17:02:37 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[20-Jun-2018 17:02:37 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[20-Jun-2018 17:02:37 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[20-Jun-2018 17:02:37 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[20-Jun-2018 17:02:37 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[20-Jun-2018 17:02:37 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:220-321}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[20-Jun-2018 17:11:43 Asia/Kolkata] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ubuntu/workspace/api/v1/index.php on line 305
+[20-Jun-2018 17:11:43 Asia/Kolkata] PHP Stack trace:
+[20-Jun-2018 17:11:43 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[20-Jun-2018 17:11:43 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1027
+[20-Jun-2018 17:11:43 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[20-Jun-2018 17:11:43 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[20-Jun-2018 17:11:43 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[20-Jun-2018 17:11:43 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[20-Jun-2018 17:11:43 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[20-Jun-2018 17:11:43 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[20-Jun-2018 17:11:43 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:220-321}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[20-Jun-2018 17:34:35 Asia/Kolkata] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ubuntu/workspace/api/v1/index.php on line 305
+[20-Jun-2018 17:34:35 Asia/Kolkata] PHP Stack trace:
+[20-Jun-2018 17:34:35 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[20-Jun-2018 17:34:35 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1027
+[20-Jun-2018 17:34:35 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[20-Jun-2018 17:34:35 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[20-Jun-2018 17:34:35 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[20-Jun-2018 17:34:35 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[20-Jun-2018 17:34:35 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[20-Jun-2018 17:34:35 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[20-Jun-2018 17:34:35 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:220-321}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[25-Jun-2018 13:06:57 Asia/Kolkata] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/api/include/DbHandler2.php on line 378
+[25-Jun-2018 13:06:57 Asia/Kolkata] PHP Stack trace:
+[25-Jun-2018 13:06:57 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[25-Jun-2018 13:06:57 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1111
+[25-Jun-2018 13:06:57 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[25-Jun-2018 13:06:57 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[25-Jun-2018 13:06:57 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[25-Jun-2018 13:06:57 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[25-Jun-2018 13:06:57 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[25-Jun-2018 13:06:57 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[25-Jun-2018 13:06:57 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:187-237}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[25-Jun-2018 13:06:57 Asia/Kolkata] PHP  10. DbHandler->getJobs() /home/ubuntu/workspace/api/v2/index.php:191
+[25-Jun-2018 13:06:58 Asia/Kolkata] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/api/include/DbHandler2.php on line 378
+[25-Jun-2018 13:06:58 Asia/Kolkata] PHP Stack trace:
+[25-Jun-2018 13:06:58 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[25-Jun-2018 13:06:58 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1111
+[25-Jun-2018 13:06:58 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[25-Jun-2018 13:06:58 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[25-Jun-2018 13:06:58 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[25-Jun-2018 13:06:58 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[25-Jun-2018 13:06:58 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[25-Jun-2018 13:06:58 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[25-Jun-2018 13:06:58 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:187-237}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[25-Jun-2018 13:06:58 Asia/Kolkata] PHP  10. DbHandler->getJobs() /home/ubuntu/workspace/api/v2/index.php:191
+[25-Jun-2018 13:06:59 Asia/Kolkata] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/api/include/DbHandler2.php on line 378
+[25-Jun-2018 13:06:59 Asia/Kolkata] PHP Stack trace:
+[25-Jun-2018 13:06:59 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[25-Jun-2018 13:06:59 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1111
+[25-Jun-2018 13:06:59 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[25-Jun-2018 13:06:59 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[25-Jun-2018 13:06:59 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[25-Jun-2018 13:06:59 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[25-Jun-2018 13:06:59 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[25-Jun-2018 13:06:59 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[25-Jun-2018 13:06:59 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:187-237}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[25-Jun-2018 13:06:59 Asia/Kolkata] PHP  10. DbHandler->getJobs() /home/ubuntu/workspace/api/v2/index.php:191
+[25-Jun-2018 13:07:00 Asia/Kolkata] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/api/include/DbHandler2.php on line 378
+[25-Jun-2018 13:07:00 Asia/Kolkata] PHP Stack trace:
+[25-Jun-2018 13:07:00 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[25-Jun-2018 13:07:00 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1111
+[25-Jun-2018 13:07:00 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[25-Jun-2018 13:07:00 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[25-Jun-2018 13:07:00 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[25-Jun-2018 13:07:00 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[25-Jun-2018 13:07:00 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[25-Jun-2018 13:07:00 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[25-Jun-2018 13:07:00 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:187-237}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[25-Jun-2018 13:07:00 Asia/Kolkata] PHP  10. DbHandler->getJobs() /home/ubuntu/workspace/api/v2/index.php:191
+[25-Jun-2018 13:07:01 Asia/Kolkata] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/api/include/DbHandler2.php on line 378
+[25-Jun-2018 13:07:01 Asia/Kolkata] PHP Stack trace:
+[25-Jun-2018 13:07:01 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[25-Jun-2018 13:07:01 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1111
+[25-Jun-2018 13:07:01 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[25-Jun-2018 13:07:01 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[25-Jun-2018 13:07:01 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[25-Jun-2018 13:07:01 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[25-Jun-2018 13:07:01 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[25-Jun-2018 13:07:01 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[25-Jun-2018 13:07:01 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:187-237}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[25-Jun-2018 13:07:01 Asia/Kolkata] PHP  10. DbHandler->getJobs() /home/ubuntu/workspace/api/v2/index.php:191
+[25-Jun-2018 13:07:02 Asia/Kolkata] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/api/include/DbHandler2.php on line 378
+[25-Jun-2018 13:07:02 Asia/Kolkata] PHP Stack trace:
+[25-Jun-2018 13:07:02 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[25-Jun-2018 13:07:02 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1111
+[25-Jun-2018 13:07:02 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[25-Jun-2018 13:07:02 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[25-Jun-2018 13:07:02 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[25-Jun-2018 13:07:02 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[25-Jun-2018 13:07:02 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[25-Jun-2018 13:07:02 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[25-Jun-2018 13:07:02 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:187-237}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[25-Jun-2018 13:07:02 Asia/Kolkata] PHP  10. DbHandler->getJobs() /home/ubuntu/workspace/api/v2/index.php:191
+[25-Jun-2018 13:07:03 Asia/Kolkata] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/api/include/DbHandler2.php on line 378
+[25-Jun-2018 13:07:03 Asia/Kolkata] PHP Stack trace:
+[25-Jun-2018 13:07:03 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[25-Jun-2018 13:07:03 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1111
+[25-Jun-2018 13:07:03 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[25-Jun-2018 13:07:03 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[25-Jun-2018 13:07:03 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[25-Jun-2018 13:07:03 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[25-Jun-2018 13:07:03 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[25-Jun-2018 13:07:03 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[25-Jun-2018 13:07:03 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:187-237}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[25-Jun-2018 13:07:03 Asia/Kolkata] PHP  10. DbHandler->getJobs() /home/ubuntu/workspace/api/v2/index.php:191
+[25-Jun-2018 13:07:04 Asia/Kolkata] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/api/include/DbHandler2.php on line 378
+[25-Jun-2018 13:07:04 Asia/Kolkata] PHP Stack trace:
+[25-Jun-2018 13:07:04 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[25-Jun-2018 13:07:04 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1111
+[25-Jun-2018 13:07:04 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[25-Jun-2018 13:07:04 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[25-Jun-2018 13:07:04 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[25-Jun-2018 13:07:04 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[25-Jun-2018 13:07:04 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[25-Jun-2018 13:07:04 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[25-Jun-2018 13:07:04 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:187-237}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[25-Jun-2018 13:07:04 Asia/Kolkata] PHP  10. DbHandler->getJobs() /home/ubuntu/workspace/api/v2/index.php:191
+[25-Jun-2018 13:07:05 Asia/Kolkata] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/api/include/DbHandler2.php on line 378
+[25-Jun-2018 13:07:05 Asia/Kolkata] PHP Stack trace:
+[25-Jun-2018 13:07:05 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[25-Jun-2018 13:07:05 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1111
+[25-Jun-2018 13:07:05 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[25-Jun-2018 13:07:05 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[25-Jun-2018 13:07:05 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[25-Jun-2018 13:07:05 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[25-Jun-2018 13:07:05 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[25-Jun-2018 13:07:05 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[25-Jun-2018 13:07:05 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:187-237}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[25-Jun-2018 13:07:05 Asia/Kolkata] PHP  10. DbHandler->getJobs() /home/ubuntu/workspace/api/v2/index.php:191
+[26-Jun-2018 15:40:00 Asia/Kolkata] PHP Fatal error:  Call to undefined method DbHandler::getAcceptedJobs2() in /home/ubuntu/workspace/api/v2/index.php on line 374
+[26-Jun-2018 15:40:00 Asia/Kolkata] PHP Stack trace:
+[26-Jun-2018 15:40:00 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[26-Jun-2018 15:40:00 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1269
+[26-Jun-2018 15:40:00 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[26-Jun-2018 15:40:00 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[26-Jun-2018 15:40:00 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[26-Jun-2018 15:40:00 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[26-Jun-2018 15:40:00 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[26-Jun-2018 15:40:00 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[26-Jun-2018 15:40:00 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:370-420}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[26-Jun-2018 15:54:20 Asia/Kolkata] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/api/include/DbHandler2.php on line 451
+[26-Jun-2018 15:54:20 Asia/Kolkata] PHP Stack trace:
+[26-Jun-2018 15:54:20 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[26-Jun-2018 15:54:20 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1347
+[26-Jun-2018 15:54:20 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[26-Jun-2018 15:54:20 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[26-Jun-2018 15:54:20 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[26-Jun-2018 15:54:20 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[26-Jun-2018 15:54:20 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[26-Jun-2018 15:54:20 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[26-Jun-2018 15:54:20 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:554-578}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[26-Jun-2018 15:54:20 Asia/Kolkata] PHP  10. DbHandler->getRejectedJobsId() /home/ubuntu/workspace/api/v2/index.php:558
+[27-Jun-2018 18:14:46 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler2.php on line 432
+[27-Jun-2018 18:14:46 Asia/Kolkata] PHP Stack trace:
+[27-Jun-2018 18:14:46 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[27-Jun-2018 18:14:46 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1353
+[27-Jun-2018 18:14:46 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[27-Jun-2018 18:14:46 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[27-Jun-2018 18:14:46 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[27-Jun-2018 18:14:46 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[27-Jun-2018 18:14:46 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[27-Jun-2018 18:14:46 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[27-Jun-2018 18:14:46 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:372-424}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[27-Jun-2018 18:14:46 Asia/Kolkata] PHP  10. DbHandler->getCountAcceptedJobs() /home/ubuntu/workspace/api/v2/index.php:376
+[27-Jun-2018 18:14:58 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler2.php on line 432
+[27-Jun-2018 18:14:58 Asia/Kolkata] PHP Stack trace:
+[27-Jun-2018 18:14:58 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[27-Jun-2018 18:14:58 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1353
+[27-Jun-2018 18:14:58 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[27-Jun-2018 18:14:58 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[27-Jun-2018 18:14:58 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[27-Jun-2018 18:14:58 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[27-Jun-2018 18:14:58 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[27-Jun-2018 18:14:58 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[27-Jun-2018 18:14:58 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:372-424}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[27-Jun-2018 18:14:58 Asia/Kolkata] PHP  10. DbHandler->getCountAcceptedJobs() /home/ubuntu/workspace/api/v2/index.php:376
+[27-Jun-2018 18:15:47 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler2.php on line 432
+[27-Jun-2018 18:15:47 Asia/Kolkata] PHP Stack trace:
+[27-Jun-2018 18:15:47 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[27-Jun-2018 18:15:47 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1353
+[27-Jun-2018 18:15:47 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[27-Jun-2018 18:15:47 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[27-Jun-2018 18:15:47 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[27-Jun-2018 18:15:47 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[27-Jun-2018 18:15:47 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[27-Jun-2018 18:15:47 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[27-Jun-2018 18:15:47 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:372-424}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[27-Jun-2018 18:15:47 Asia/Kolkata] PHP  10. DbHandler->getCountAcceptedJobs() /home/ubuntu/workspace/api/v2/index.php:376
+[27-Jun-2018 18:15:57 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler2.php on line 432
+[27-Jun-2018 18:15:57 Asia/Kolkata] PHP Stack trace:
+[27-Jun-2018 18:15:57 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[27-Jun-2018 18:15:57 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1353
+[27-Jun-2018 18:15:57 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[27-Jun-2018 18:15:57 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[27-Jun-2018 18:15:57 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[27-Jun-2018 18:15:57 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[27-Jun-2018 18:15:57 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[27-Jun-2018 18:15:57 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[27-Jun-2018 18:15:57 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:372-424}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[27-Jun-2018 18:15:57 Asia/Kolkata] PHP  10. DbHandler->getCountAcceptedJobs() /home/ubuntu/workspace/api/v2/index.php:376
+[27-Jun-2018 18:16:18 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler2.php on line 432
+[27-Jun-2018 18:16:18 Asia/Kolkata] PHP Stack trace:
+[27-Jun-2018 18:16:18 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[27-Jun-2018 18:16:18 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1353
+[27-Jun-2018 18:16:18 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[27-Jun-2018 18:16:18 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[27-Jun-2018 18:16:18 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[27-Jun-2018 18:16:18 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[27-Jun-2018 18:16:18 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[27-Jun-2018 18:16:18 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[27-Jun-2018 18:16:18 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:372-424}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[27-Jun-2018 18:16:18 Asia/Kolkata] PHP  10. DbHandler->getCountAcceptedJobs() /home/ubuntu/workspace/api/v2/index.php:376
+[27-Jun-2018 18:17:50 Asia/Kolkata] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/api/include/DbHandler2.php on line 474
+[27-Jun-2018 18:17:50 Asia/Kolkata] PHP Stack trace:
+[27-Jun-2018 18:17:50 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[27-Jun-2018 18:17:50 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1353
+[27-Jun-2018 18:17:50 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[27-Jun-2018 18:17:50 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[27-Jun-2018 18:17:50 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[27-Jun-2018 18:17:50 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[27-Jun-2018 18:17:50 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[27-Jun-2018 18:17:50 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[27-Jun-2018 18:17:50 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:505-558}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[27-Jun-2018 18:17:50 Asia/Kolkata] PHP  10. DbHandler->getCountRejectedJobs() /home/ubuntu/workspace/api/v2/index.php:509
+[28-Jun-2018 09:58:20 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/api/v2/index.php on line 1379
+[28-Jun-2018 09:58:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/api/v2/index.php on line 1379
+[03-Jul-2018 12:44:54 UTC] PHP Parse error:  syntax error, unexpected '%' in /home/ubuntu/workspace/api/include/DbHandler2.php on line 391
+[03-Jul-2018 12:44:54 UTC] PHP Stack trace:
+[03-Jul-2018 12:44:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[03-Jul-2018 18:15:21 Asia/Kolkata] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/ubuntu/workspace/api/include/DbHandler2.php on line 391
+[03-Jul-2018 18:15:21 Asia/Kolkata] PHP Stack trace:
+[03-Jul-2018 18:15:21 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[03-Jul-2018 18:15:21 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1436
+[03-Jul-2018 18:15:21 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[03-Jul-2018 18:15:21 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[03-Jul-2018 18:15:21 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[03-Jul-2018 18:15:21 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[03-Jul-2018 18:15:21 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[03-Jul-2018 18:15:21 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[03-Jul-2018 18:15:21 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:321-374}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[03-Jul-2018 18:15:21 Asia/Kolkata] PHP  10. DbHandler->getSearchedJobs() /home/ubuntu/workspace/api/v2/index.php:326
+[03-Jul-2018 18:19:37 Asia/Kolkata] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/ubuntu/workspace/api/include/DbHandler2.php on line 391
+[03-Jul-2018 18:19:37 Asia/Kolkata] PHP Stack trace:
+[03-Jul-2018 18:19:37 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[03-Jul-2018 18:19:37 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1436
+[03-Jul-2018 18:19:37 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[03-Jul-2018 18:19:37 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[03-Jul-2018 18:19:37 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[03-Jul-2018 18:19:37 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[03-Jul-2018 18:19:37 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[03-Jul-2018 18:19:37 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[03-Jul-2018 18:19:37 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:321-374}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[03-Jul-2018 18:19:37 Asia/Kolkata] PHP  10. DbHandler->getSearchedJobs() /home/ubuntu/workspace/api/v2/index.php:326
+[03-Jul-2018 18:31:34 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler2.php on line 391
+[03-Jul-2018 18:31:34 Asia/Kolkata] PHP Stack trace:
+[03-Jul-2018 18:31:34 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[03-Jul-2018 18:31:34 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1436
+[03-Jul-2018 18:31:34 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[03-Jul-2018 18:31:34 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[03-Jul-2018 18:31:34 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[03-Jul-2018 18:31:34 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[03-Jul-2018 18:31:34 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[03-Jul-2018 18:31:34 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[03-Jul-2018 18:31:34 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:321-374}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[03-Jul-2018 18:31:34 Asia/Kolkata] PHP  10. DbHandler->getSearchedJobs() /home/ubuntu/workspace/api/v2/index.php:326
+[03-Jul-2018 18:31:51 Asia/Kolkata] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/api/include/DbHandler2.php on line 392
+[03-Jul-2018 18:31:51 Asia/Kolkata] PHP Stack trace:
+[03-Jul-2018 18:31:51 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[03-Jul-2018 18:31:51 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1436
+[03-Jul-2018 18:31:51 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[03-Jul-2018 18:31:51 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[03-Jul-2018 18:31:51 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[03-Jul-2018 18:31:51 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[03-Jul-2018 18:31:51 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[03-Jul-2018 18:31:51 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[03-Jul-2018 18:31:51 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:321-374}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[03-Jul-2018 18:31:51 Asia/Kolkata] PHP  10. DbHandler->getSearchedJobs() /home/ubuntu/workspace/api/v2/index.php:326
+[12-Jul-2018 11:05:57 Asia/Kolkata] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/api/include/DbHandler2.php on line 391
+[12-Jul-2018 11:05:57 Asia/Kolkata] PHP Stack trace:
+[12-Jul-2018 11:05:57 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v2/index.php:0
+[12-Jul-2018 11:05:57 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v2/index.php:1439
+[12-Jul-2018 11:05:57 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[12-Jul-2018 11:05:57 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[12-Jul-2018 11:05:57 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[12-Jul-2018 11:05:57 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[12-Jul-2018 11:05:57 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[12-Jul-2018 11:05:57 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[12-Jul-2018 11:05:57 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v2/index.php:321-377}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[12-Jul-2018 11:05:57 Asia/Kolkata] PHP  10. DbHandler->getSearchedJobs() /home/ubuntu/workspace/api/v2/index.php:329
+[10-Jan-2019 11:18:25 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 68
+[10-Jan-2019 11:18:25 Asia/Kolkata] PHP Stack trace:
+[10-Jan-2019 11:18:25 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[10-Jan-2019 11:18:25 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1013
+[10-Jan-2019 11:18:25 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[10-Jan-2019 11:18:25 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[10-Jan-2019 11:18:25 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[10-Jan-2019 11:18:25 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[10-Jan-2019 11:18:25 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[10-Jan-2019 11:18:25 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[10-Jan-2019 11:18:25 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:150-184}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[10-Jan-2019 11:18:25 Asia/Kolkata] PHP  10. DbHandler->userLogin() /home/ubuntu/workspace/api/v1/index.php:158
+[10-Jan-2019 11:49:30 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 121
+[10-Jan-2019 11:49:30 Asia/Kolkata] PHP Stack trace:
+[10-Jan-2019 11:49:30 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[10-Jan-2019 11:49:30 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1048
+[10-Jan-2019 11:49:30 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[10-Jan-2019 11:49:30 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[10-Jan-2019 11:49:30 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[10-Jan-2019 11:49:30 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[10-Jan-2019 11:49:30 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[10-Jan-2019 11:49:30 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[10-Jan-2019 11:49:30 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:187-219}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[10-Jan-2019 11:49:30 Asia/Kolkata] PHP  10. DbHandler->getQuestions() /home/ubuntu/workspace/api/v1/index.php:191
+[10-Jan-2019 07:16:08 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/api/v1/index.php on line 232
+[10-Jan-2019 07:16:20 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/api/v1/index.php on line 232
+[10-Jan-2019 13:20:51 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 150
+[10-Jan-2019 13:20:51 Asia/Kolkata] PHP Stack trace:
+[10-Jan-2019 13:20:51 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[10-Jan-2019 13:20:51 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:955
+[10-Jan-2019 13:20:51 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[10-Jan-2019 13:20:51 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[10-Jan-2019 13:20:51 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[10-Jan-2019 13:20:51 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[10-Jan-2019 13:20:51 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[10-Jan-2019 13:20:51 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[10-Jan-2019 13:20:51 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:222-249}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[10-Jan-2019 13:20:51 Asia/Kolkata] PHP  10. DbHandler->responseSubmit() /home/ubuntu/workspace/api/v1/index.php:235
+[10-Jan-2019 07:52:07 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/ubuntu/workspace/api/v1/index.php on line 243
+[10-Jan-2019 14:39:21 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 150
+[10-Jan-2019 14:39:21 Asia/Kolkata] PHP Stack trace:
+[10-Jan-2019 14:39:21 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[10-Jan-2019 14:39:21 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:951
+[10-Jan-2019 14:39:21 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[10-Jan-2019 14:39:21 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[10-Jan-2019 14:39:21 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[10-Jan-2019 14:39:21 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[10-Jan-2019 14:39:21 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[10-Jan-2019 14:39:21 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[10-Jan-2019 14:39:21 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:222-245}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[10-Jan-2019 14:39:21 Asia/Kolkata] PHP  10. DbHandler->responseSubmit() /home/ubuntu/workspace/api/v1/index.php:235
+[15-Jan-2019 20:13:31 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 170
+[15-Jan-2019 20:13:31 Asia/Kolkata] PHP Stack trace:
+[15-Jan-2019 20:13:31 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-Jan-2019 20:13:31 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:985
+[15-Jan-2019 20:13:31 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[15-Jan-2019 20:13:31 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[15-Jan-2019 20:13:31 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[15-Jan-2019 20:13:31 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[15-Jan-2019 20:13:31 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[15-Jan-2019 20:13:31 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[15-Jan-2019 20:13:31 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:256-279}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[15-Jan-2019 20:13:31 Asia/Kolkata] PHP  10. DbHandler->responseSubmit() /home/ubuntu/workspace/api/v1/index.php:269
+[15-Jan-2019 20:21:09 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 170
+[15-Jan-2019 20:21:09 Asia/Kolkata] PHP Stack trace:
+[15-Jan-2019 20:21:09 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[15-Jan-2019 20:21:09 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:992
+[15-Jan-2019 20:21:09 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[15-Jan-2019 20:21:09 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[15-Jan-2019 20:21:09 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[15-Jan-2019 20:21:09 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[15-Jan-2019 20:21:09 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[15-Jan-2019 20:21:09 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[15-Jan-2019 20:21:09 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:256-286}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[15-Jan-2019 20:21:09 Asia/Kolkata] PHP  10. DbHandler->responseSubmit() /home/ubuntu/workspace/api/v1/index.php:271
+[31-Jan-2019 17:05:06 Asia/Kolkata] PHP Fatal error:  Call to undefined function rount() in /home/ubuntu/workspace/api/v1/index.php on line 251
+[31-Jan-2019 17:05:06 Asia/Kolkata] PHP Stack trace:
+[31-Jan-2019 17:05:06 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[31-Jan-2019 17:05:06 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1030
+[31-Jan-2019 17:05:06 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[31-Jan-2019 17:05:06 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[31-Jan-2019 17:05:06 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[31-Jan-2019 17:05:06 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[31-Jan-2019 17:05:06 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[31-Jan-2019 17:05:06 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[31-Jan-2019 17:05:06 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:235-262}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[31-Mar-2019 15:08:36 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 239
+[31-Mar-2019 15:08:36 Asia/Kolkata] PHP Stack trace:
+[31-Mar-2019 15:08:36 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[31-Mar-2019 15:08:36 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:885
+[31-Mar-2019 15:08:36 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[31-Mar-2019 15:08:36 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[31-Mar-2019 15:08:36 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[31-Mar-2019 15:08:36 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[31-Mar-2019 15:08:36 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[31-Mar-2019 15:08:36 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[31-Mar-2019 15:08:36 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:235-269}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[31-Mar-2019 15:08:36 Asia/Kolkata] PHP  10. DbHandler->getRecordCount() /home/ubuntu/workspace/api/v1/index.php:240
+[31-Mar-2019 15:08:45 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 239
+[31-Mar-2019 15:08:45 Asia/Kolkata] PHP Stack trace:
+[31-Mar-2019 15:08:45 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[31-Mar-2019 15:08:45 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:885
+[31-Mar-2019 15:08:45 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[31-Mar-2019 15:08:45 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[31-Mar-2019 15:08:45 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[31-Mar-2019 15:08:45 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[31-Mar-2019 15:08:45 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[31-Mar-2019 15:08:45 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[31-Mar-2019 15:08:45 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:235-269}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[31-Mar-2019 15:08:45 Asia/Kolkata] PHP  10. DbHandler->getRecordCount() /home/ubuntu/workspace/api/v1/index.php:240
+[02-Apr-2019 21:27:12 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 239
+[02-Apr-2019 21:27:12 Asia/Kolkata] PHP Stack trace:
+[02-Apr-2019 21:27:12 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[02-Apr-2019 21:27:12 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:887
+[02-Apr-2019 21:27:12 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[02-Apr-2019 21:27:12 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[02-Apr-2019 21:27:12 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[02-Apr-2019 21:27:12 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[02-Apr-2019 21:27:12 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[02-Apr-2019 21:27:12 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[02-Apr-2019 21:27:12 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:235-271}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[02-Apr-2019 21:27:12 Asia/Kolkata] PHP  10. DbHandler->getRecordCount() /home/ubuntu/workspace/api/v1/index.php:242
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 239
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP Stack trace:
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:887
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:235-271}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP  10. DbHandler->getRecordCount() /home/ubuntu/workspace/api/v1/index.php:242
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 239
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP Stack trace:
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:887
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:235-271}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[02-Apr-2019 21:29:33 Asia/Kolkata] PHP  10. DbHandler->getRecordCount() /home/ubuntu/workspace/api/v1/index.php:242
+[02-Apr-2019 21:33:43 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 239
+[02-Apr-2019 21:33:43 Asia/Kolkata] PHP Stack trace:
+[02-Apr-2019 21:33:43 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[02-Apr-2019 21:33:43 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:887
+[02-Apr-2019 21:33:43 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[02-Apr-2019 21:33:43 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[02-Apr-2019 21:33:43 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[02-Apr-2019 21:33:43 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[02-Apr-2019 21:33:43 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[02-Apr-2019 21:33:43 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[02-Apr-2019 21:33:43 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:235-271}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[02-Apr-2019 21:33:43 Asia/Kolkata] PHP  10. DbHandler->getRecordCount() /home/ubuntu/workspace/api/v1/index.php:242
+[03-Apr-2019 22:53:34 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 130
+[03-Apr-2019 22:53:34 Asia/Kolkata] PHP Stack trace:
+[03-Apr-2019 22:53:34 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[03-Apr-2019 22:53:34 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:889
+[03-Apr-2019 22:53:34 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[03-Apr-2019 22:53:34 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[03-Apr-2019 22:53:34 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[03-Apr-2019 22:53:34 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[03-Apr-2019 22:53:34 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[03-Apr-2019 22:53:34 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[03-Apr-2019 22:53:34 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:301-338}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[03-Apr-2019 22:53:34 Asia/Kolkata] PHP  10. DbHandler->getFirebaseId() /home/ubuntu/workspace/api/v1/index.php:323
+[13-Apr-2019 17:09:09 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/ubuntu/workspace/api/include/DbHandler.php on line 216
+[13-Apr-2019 17:09:09 UTC] PHP Stack trace:
+[13-Apr-2019 17:09:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[13-Apr-2019 17:09:09 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/ubuntu/workspace/api/include/DbHandler.php on line 216
+[13-Apr-2019 17:09:09 UTC] PHP Stack trace:
+[13-Apr-2019 17:09:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[17-Apr-2019 17:19:04 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 301
+[17-Apr-2019 17:19:04 Asia/Kolkata] PHP Stack trace:
+[17-Apr-2019 17:19:04 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[17-Apr-2019 17:19:04 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:978
+[17-Apr-2019 17:19:04 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[17-Apr-2019 17:19:04 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[17-Apr-2019 17:19:04 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[17-Apr-2019 17:19:04 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[17-Apr-2019 17:19:04 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[17-Apr-2019 17:19:04 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[17-Apr-2019 17:19:04 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:237-275}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[17-Apr-2019 17:19:04 Asia/Kolkata] PHP  10. DbHandler->getRecordCount() /home/ubuntu/workspace/api/v1/index.php:244
+[17-Apr-2019 17:40:04 Asia/Kolkata] PHP Fatal error:  Call to a member function close() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 228
+[17-Apr-2019 17:40:04 Asia/Kolkata] PHP Stack trace:
+[17-Apr-2019 17:40:04 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[17-Apr-2019 17:40:04 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:986
+[17-Apr-2019 17:40:04 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[17-Apr-2019 17:40:04 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[17-Apr-2019 17:40:04 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[17-Apr-2019 17:40:04 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[17-Apr-2019 17:40:04 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[17-Apr-2019 17:40:04 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[17-Apr-2019 17:40:04 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:285-328}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[17-Apr-2019 17:40:04 Asia/Kolkata] PHP  10. DbHandler->getRatingResponsePieChart() /home/ubuntu/workspace/api/v1/index.php:308
+[17-Apr-2019 18:04:57 Asia/Kolkata] PHP Fatal error:  Class 'Handler' not found in /home/ubuntu/workspace/api/v1/index.php on line 360
+[17-Apr-2019 18:04:57 Asia/Kolkata] PHP Stack trace:
+[17-Apr-2019 18:04:57 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[17-Apr-2019 18:04:57 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:986
+[17-Apr-2019 18:04:57 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[17-Apr-2019 18:04:57 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[17-Apr-2019 18:04:57 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[17-Apr-2019 18:04:57 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[17-Apr-2019 18:04:57 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[17-Apr-2019 18:04:57 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[17-Apr-2019 18:04:57 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:354-369}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[27-Apr-2019 21:49:57 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 346
+[27-Apr-2019 21:49:57 Asia/Kolkata] PHP Stack trace:
+[27-Apr-2019 21:49:57 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[27-Apr-2019 21:49:57 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:987
+[27-Apr-2019 21:49:57 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[27-Apr-2019 21:49:57 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[27-Apr-2019 21:49:57 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[27-Apr-2019 21:49:57 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[27-Apr-2019 21:49:57 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[27-Apr-2019 21:49:57 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[27-Apr-2019 21:49:57 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:237-283}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[27-Apr-2019 21:49:57 Asia/Kolkata] PHP  10. DbHandler->getRecordPerDay() /home/ubuntu/workspace/api/v1/index.php:246
+[28-Apr-2019 16:14:33 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 181
+[28-Apr-2019 16:14:33 Asia/Kolkata] PHP Stack trace:
+[28-Apr-2019 16:14:33 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[28-Apr-2019 16:14:33 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1026
+[28-Apr-2019 16:14:33 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[28-Apr-2019 16:14:33 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[28-Apr-2019 16:14:33 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[28-Apr-2019 16:14:33 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[28-Apr-2019 16:14:33 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[28-Apr-2019 16:14:33 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[28-Apr-2019 16:14:33 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:394-409}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[28-Apr-2019 16:14:33 Asia/Kolkata] PHP  10. DbHandler->addFeedback() /home/ubuntu/workspace/api/v1/index.php:400
+[28-Apr-2019 16:24:06 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 181
+[28-Apr-2019 16:24:06 Asia/Kolkata] PHP Stack trace:
+[28-Apr-2019 16:24:06 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[28-Apr-2019 16:24:06 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1026
+[28-Apr-2019 16:24:06 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[28-Apr-2019 16:24:06 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[28-Apr-2019 16:24:06 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[28-Apr-2019 16:24:06 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[28-Apr-2019 16:24:06 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[28-Apr-2019 16:24:06 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[28-Apr-2019 16:24:06 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:394-409}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[28-Apr-2019 16:24:06 Asia/Kolkata] PHP  10. DbHandler->addFeedback() /home/ubuntu/workspace/api/v1/index.php:400
+[28-Apr-2019 16:25:23 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 181
+[28-Apr-2019 16:25:23 Asia/Kolkata] PHP Stack trace:
+[28-Apr-2019 16:25:23 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[28-Apr-2019 16:25:23 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1026
+[28-Apr-2019 16:25:23 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[28-Apr-2019 16:25:23 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[28-Apr-2019 16:25:23 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[28-Apr-2019 16:25:23 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[28-Apr-2019 16:25:23 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[28-Apr-2019 16:25:23 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[28-Apr-2019 16:25:23 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:394-409}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[28-Apr-2019 16:25:23 Asia/Kolkata] PHP  10. DbHandler->addFeedback() /home/ubuntu/workspace/api/v1/index.php:400
+[28-Apr-2019 20:58:45 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 182
+[28-Apr-2019 20:58:45 Asia/Kolkata] PHP Stack trace:
+[28-Apr-2019 20:58:45 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[28-Apr-2019 20:58:45 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1026
+[28-Apr-2019 20:58:45 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[28-Apr-2019 20:58:45 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[28-Apr-2019 20:58:45 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[28-Apr-2019 20:58:45 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[28-Apr-2019 20:58:45 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[28-Apr-2019 20:58:45 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[28-Apr-2019 20:58:45 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:394-409}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[28-Apr-2019 20:58:45 Asia/Kolkata] PHP  10. DbHandler->addFeedback() /home/ubuntu/workspace/api/v1/index.php:400
+[28-Apr-2019 22:30:07 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 192
+[28-Apr-2019 22:30:07 Asia/Kolkata] PHP Stack trace:
+[28-Apr-2019 22:30:07 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[28-Apr-2019 22:30:07 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1044
+[28-Apr-2019 22:30:07 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[28-Apr-2019 22:30:07 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[28-Apr-2019 22:30:07 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[28-Apr-2019 22:30:07 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[28-Apr-2019 22:30:07 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[28-Apr-2019 22:30:07 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[28-Apr-2019 22:30:07 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:411-427}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[28-Apr-2019 22:30:07 Asia/Kolkata] PHP  10. DbHandler->updateProfile() /home/ubuntu/workspace/api/v1/index.php:418
+[28-Apr-2019 22:32:34 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 192
+[28-Apr-2019 22:32:34 Asia/Kolkata] PHP Stack trace:
+[28-Apr-2019 22:32:34 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[28-Apr-2019 22:32:34 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1044
+[28-Apr-2019 22:32:34 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[28-Apr-2019 22:32:34 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[28-Apr-2019 22:32:34 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[28-Apr-2019 22:32:34 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[28-Apr-2019 22:32:34 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[28-Apr-2019 22:32:34 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[28-Apr-2019 22:32:34 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:411-427}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[28-Apr-2019 22:32:34 Asia/Kolkata] PHP  10. DbHandler->updateProfile() /home/ubuntu/workspace/api/v1/index.php:418
+[29-Apr-2019 21:56:49 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 192
+[29-Apr-2019 21:56:49 Asia/Kolkata] PHP Stack trace:
+[29-Apr-2019 21:56:49 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[29-Apr-2019 21:56:49 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1044
+[29-Apr-2019 21:56:49 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[29-Apr-2019 21:56:49 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[29-Apr-2019 21:56:49 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[29-Apr-2019 21:56:49 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[29-Apr-2019 21:56:49 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[29-Apr-2019 21:56:49 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[29-Apr-2019 21:56:49 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:411-427}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[29-Apr-2019 21:56:49 Asia/Kolkata] PHP  10. DbHandler->updateProfile() /home/ubuntu/workspace/api/v1/index.php:418
+[29-Apr-2019 21:59:38 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 193
+[29-Apr-2019 21:59:38 Asia/Kolkata] PHP Stack trace:
+[29-Apr-2019 21:59:38 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[29-Apr-2019 21:59:38 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1044
+[29-Apr-2019 21:59:38 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[29-Apr-2019 21:59:38 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[29-Apr-2019 21:59:38 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[29-Apr-2019 21:59:38 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[29-Apr-2019 21:59:38 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[29-Apr-2019 21:59:38 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[29-Apr-2019 21:59:38 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:411-427}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[29-Apr-2019 21:59:38 Asia/Kolkata] PHP  10. DbHandler->updateProfile() /home/ubuntu/workspace/api/v1/index.php:418
+[02-May-2019 22:36:49 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 239
+[02-May-2019 22:36:49 Asia/Kolkata] PHP Stack trace:
+[02-May-2019 22:36:49 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[02-May-2019 22:36:49 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1044
+[02-May-2019 22:36:49 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[02-May-2019 22:36:49 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[02-May-2019 22:36:49 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[02-May-2019 22:36:49 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[02-May-2019 22:36:49 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[02-May-2019 22:36:49 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[02-May-2019 22:36:49 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:304-347}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[02-May-2019 22:36:49 Asia/Kolkata] PHP  10. DbHandler->getRatingResponsePieChart() /home/ubuntu/workspace/api/v1/index.php:327
+[02-May-2019 22:37:53 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 239
+[02-May-2019 22:37:53 Asia/Kolkata] PHP Stack trace:
+[02-May-2019 22:37:53 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[02-May-2019 22:37:53 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1044
+[02-May-2019 22:37:53 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[02-May-2019 22:37:53 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[02-May-2019 22:37:53 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[02-May-2019 22:37:53 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[02-May-2019 22:37:53 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[02-May-2019 22:37:53 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[02-May-2019 22:37:53 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:304-347}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[02-May-2019 22:37:53 Asia/Kolkata] PHP  10. DbHandler->getRatingResponsePieChart() /home/ubuntu/workspace/api/v1/index.php:327
+[02-May-2019 17:09:49 UTC] PHP Parse error:  syntax error, unexpected '$user_id' (T_VARIABLE) in /home/ubuntu/workspace/api/include/DbHandler.php on line 239
+[02-May-2019 17:09:49 UTC] PHP Stack trace:
+[02-May-2019 17:09:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[12-May-2019 22:51:52 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 257
+[12-May-2019 22:51:52 Asia/Kolkata] PHP Stack trace:
+[12-May-2019 22:51:52 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[12-May-2019 22:51:52 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1044
+[12-May-2019 22:51:52 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[12-May-2019 22:51:52 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[12-May-2019 22:51:52 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[12-May-2019 22:51:52 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[12-May-2019 22:51:52 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[12-May-2019 22:51:52 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[12-May-2019 22:51:52 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:457-496}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[12-May-2019 22:51:52 Asia/Kolkata] PHP  10. DbHandler->insertSurvey() /home/ubuntu/workspace/api/v1/index.php:473
+[12-May-2019 22:53:50 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 257
+[12-May-2019 22:53:50 Asia/Kolkata] PHP Stack trace:
+[12-May-2019 22:53:50 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[12-May-2019 22:53:50 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1044
+[12-May-2019 22:53:50 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[12-May-2019 22:53:50 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[12-May-2019 22:53:50 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[12-May-2019 22:53:50 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[12-May-2019 22:53:50 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[12-May-2019 22:53:50 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[12-May-2019 22:53:50 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:457-496}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[12-May-2019 22:53:50 Asia/Kolkata] PHP  10. DbHandler->insertSurvey() /home/ubuntu/workspace/api/v1/index.php:473
+[03-Jun-2019 17:40:28 Asia/Kolkata] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/api/include/DbHandler.php on line 175
+[03-Jun-2019 17:40:28 Asia/Kolkata] PHP Stack trace:
+[03-Jun-2019 17:40:28 Asia/Kolkata] PHP   1. {main}() /home/ubuntu/workspace/api/v1/index.php:0
+[03-Jun-2019 17:40:28 Asia/Kolkata] PHP   2. Slim\Slim->run() /home/ubuntu/workspace/api/v1/index.php:1088
+[03-Jun-2019 17:40:28 Asia/Kolkata] PHP   3. Slim\Middleware\PrettyExceptions->call() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1254
+[03-Jun-2019 17:40:28 Asia/Kolkata] PHP   4. Slim\Middleware\MethodOverride->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/PrettyExceptions.php:67
+[03-Jun-2019 17:40:28 Asia/Kolkata] PHP   5. Slim\Middleware\Flash->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/MethodOverride.php:92
+[03-Jun-2019 17:40:28 Asia/Kolkata] PHP   6. Slim\Slim->call() /home/ubuntu/workspace/api/libs/Slim/Middleware/Flash.php:85
+[03-Jun-2019 17:40:28 Asia/Kolkata] PHP   7. Slim\Route->dispatch() /home/ubuntu/workspace/api/libs/Slim/Slim.php:1307
+[03-Jun-2019 17:40:28 Asia/Kolkata] PHP   8. call_user_func_array:{/home/ubuntu/workspace/api/libs/Slim/Route.php:436}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[03-Jun-2019 17:40:28 Asia/Kolkata] PHP   9. {closure:/home/ubuntu/workspace/api/v1/index.php:351-411}() /home/ubuntu/workspace/api/libs/Slim/Route.php:436
+[03-Jun-2019 17:40:28 Asia/Kolkata] PHP  10. DbHandler->getNotification() /home/ubuntu/workspace/api/v1/index.php:355
